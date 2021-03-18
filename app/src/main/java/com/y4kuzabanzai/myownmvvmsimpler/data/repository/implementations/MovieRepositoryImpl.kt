@@ -10,6 +10,7 @@ import java.lang.Exception
  * Respetando la arquitectura clean, debemos implementar las interfaces de domain en la capa del Data layer y
  *en orden de obtener la info usando getMovies, requerimos crear una clase MovieRemoteDataSource.
  * En clean architecture se usan interfaces para comunicarse entre los componentes
+ * Las dpenendencias de MovieRemoteDataSource seran provistas por dagger en el modulo RemoteDataModule
  *
  * Esta clase depende totalmente de los DataSources*/
 class MovieRepositoryImpl(private val movieRemoteDataSource: MovieRemoteDataSource) : MovieRepository {
