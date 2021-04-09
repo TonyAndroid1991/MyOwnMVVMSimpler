@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.databinding.DataBindingUtil
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.y4kuzabanzai.myownmvvmsimpler.R
 import com.y4kuzabanzai.myownmvvmsimpler.databinding.ActivityMoviesBinding
@@ -28,7 +27,7 @@ class MoviesActivity : AppCompatActivity() {
         moviesViewModel = ViewModelProvider(this, factory).get(MoviesViewModel::class.java)
 
         val responseLiveData = moviesViewModel.getMovies()
-        responseLiveData.observe(this, Observer {
+        responseLiveData.observe(this, {
             Log.i("TAG", "onCreate: ${it.toString()}")
         })
     }

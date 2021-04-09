@@ -10,7 +10,7 @@ import retrofit2.Response
  * Dado que esta es la clase ejecutora y la que se conectara con la api, necesitamos una instancia de ApiService como parametro de constructor
  * y necesitaremos tambien un apiKey
  * luego cuando se este creando la capa de presentacion se crearan codigos para inyectar estas dependencias, en este caso sera la de ApiService
- * ESTA CLASE DEBE SER MODULIZADA CON DAGGER, EN ESTE CASO SERIA EN RemoteDataModule*/
+ * ESTA CLASE DEBE SER MODULARIZADA CON DAGGER, EN ESTE CASO SERIA EN RemoteDataModule*/
 class MovieRemoteDataSourceImpl(private val apiService: ApiService, private val apiKey: String) :
     MovieRemoteDataSource {
 

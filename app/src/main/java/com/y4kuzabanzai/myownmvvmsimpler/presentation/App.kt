@@ -5,7 +5,7 @@ import com.y4kuzabanzai.myownmvvmsimpler.BuildConfig
 import com.y4kuzabanzai.myownmvvmsimpler.di.core.*
 import com.y4kuzabanzai.myownmvvmsimpler.di.movie.MovieSubComponent
 
-/**Seguimos aqui 13
+/**Seguimos aqui 14
  * Esta clase sera la que añadira los parametros de constructor a los modulos que lo requieran
  * Esta clase siempre se tiene que añadir al Manifest file
  * Una vez hecho todo esto ya podemos inyectar dentro de las Activities*/

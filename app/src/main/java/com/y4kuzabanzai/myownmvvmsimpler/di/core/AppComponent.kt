@@ -4,7 +4,7 @@ import com.y4kuzabanzai.myownmvvmsimpler.di.movie.MovieSubComponent
 import dagger.Component
 import javax.inject.Singleton
 
-/**Seguimos aqui 11
+/**Seguimos aqui 12
  *Este sera nuestro AppComponent, aqui pondremos codigo para acceder a los SubComponentFactories
  * en este caso MovieSubComponent.Factory
  * luego de esto crearemos una clase que extienda de Application

@@ -8,7 +8,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
-/**Este sera el modulo para obtener la instancia de retrofit
+/**Seguimos aqui 5
+ * Este sera el modulo para obtener la instancia de retrofit
  * En este caso Dagger provee las dependencias necesarias para ser usadas en el RemoteDataSource
  * que seria la instancia de ApiService*/
 

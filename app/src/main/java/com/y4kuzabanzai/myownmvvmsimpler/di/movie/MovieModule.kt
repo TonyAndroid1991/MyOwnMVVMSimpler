@@ -5,7 +5,7 @@ import com.y4kuzabanzai.myownmvvmsimpler.presentation.MoviesViewModelFactory
 import dagger.Module
 import dagger.Provides
 
-/**Seguimos aqui 9
+/**Seguimos aqui 10
  * Este modulo sera el que provea la dependencia de MoviesViewModelFactory
  * Este modulo requiere un MovieScope*/
 @Module

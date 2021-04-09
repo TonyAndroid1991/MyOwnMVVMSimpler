@@ -3,7 +3,7 @@ package com.y4kuzabanzai.myownmvvmsimpler.di.movie
 import com.y4kuzabanzai.myownmvvmsimpler.presentation.MoviesActivity
 import dagger.Subcomponent
 
-/**Seguimos aqui 10
+/**Seguimos aqui 11
  * Este sera un subcomponente de MoviesModule
  * Este subcomponente sera utilizado para injectarlo dentro de MoviesActivity
  * con las dependencias provistas en MovieModule*/

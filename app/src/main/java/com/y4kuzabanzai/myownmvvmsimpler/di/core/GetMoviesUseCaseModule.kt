@@ -6,7 +6,7 @@ import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
 
-/**Seguimos aqui 7
+/**Seguimos aqui 8
  * Lo normal seria crear un UseCasesModule con los casos de uso y lo mas optimo, pero como solo tenemos uno lo llamamos GetMoviesUseCase
  * estas dependencias son provistas por MovieRempositoryModule*/
 @Module
